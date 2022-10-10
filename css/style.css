@@ -1,7 +1,38 @@
-.header .cities__link{
-  color: red;
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url('');
 }
 
-.header__navigation{
-  background-color: #eeeeee;
+:root{
+  --text-color: #111111;
+--primary-color: #007198;
+--ui-color: #f47220;
+--background-color: #ffffff;
+--select-color: #daf1f9;
+}
+
+html{
+  font-size: 1rem;
+}
+
+body{
+  font-family: 'Futura PT Book', Arial, sans-serif;
+}
+
+.h1{
+  font-family: 'Futura PT Heavy', Arial, sans-serif;
+font-size: 3.125rem;
+line-height: 120%;
+color: var(--text-color);
+}
+
+.h2{
+  font-family: 'Futura PT Heavy', Arial, sans-serif;
+  font-size: 1.875rem;
+  line-height: 120%;
+  color: var(--text-color);
+}
+
+h3{
+
 }
